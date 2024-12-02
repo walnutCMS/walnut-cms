@@ -2,12 +2,12 @@
 
 /.idea/
 
-/cursor-cms-api/.idea/
-/cursor-cms-api/logs/
-/cursor-cms-api/target/
+/walnut-cms-api/.idea/
+/walnut-cms-api/logs/
+/walnut-cms-api/target/
 
-/cursor-cms-ui/.idea/
-/cursor-cms-ui/node_modules/
-/cursor-cms-ui/package-lock.json/
+/walnut-cms-ui/.idea/
+/walnut-cms-ui/node_modules/
+/walnut-cms-ui/package-lock.json/
 
 /logs/

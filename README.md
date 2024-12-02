@@ -51,45 +51,84 @@
 
 
 1.环境说明
-工具		版本		备注
-JDK			1.8	
-Maven		3.5+		强制要求
-MySQL		5.7.8 +		强制要求
-Redis		3.2 +		强制要求
+<table>
+<tr>
+    <td>工具</td>
+    <td>版本</td>
+    <td>备注</td>
+</tr>
+<tr>
+    <td>JDK</td>
+    <td>1.8	</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Maven</td>
+    <td>3.5+	</td>
+    <td>强制要求</td>
+</tr>
+<tr>
+    <td>MySQL</td>
+    <td>5.7.8 +	</td>
+    <td>强制要求</td>
+</tr>
+<tr>
+    <td>Redis</td>
+    <td>3.2 +	</td>
+    <td>强制要求</td>
+</tr>
+</table>
 
 2.开发工具
+
 IDEA
 
 3.编译命令
+```
 maven clean
 maven install
-
+```
 4.安装教程
-新建mysql数据库cursor_cms，导入SQL脚本V1.0.0__Init_Schema.sql.sql。
+新建mysql数据库walnut_cms，导入SQL脚本V1.0.0__Init_Schema.sql.sql。
 Mysql版本为5.7，字符集选择utf8mb4，排序规则选择utf8mb4_general_ci。
 
 5.运行jar包
-编译打包后端工程，运行java -jar cursor-cms-api-1.0-SNAPSHOT.jar。
+编译打包后端工程，运行java -jar walnut-api.jar。
 
 
 ### 前端部署
 
 
 1.环境说明
-工具	版本	备注
-Node	14	
+<table>
+<tr>
+    <td>工具</td>
+    <td>版本</td>
+    <td>备注</td>
+</tr>
+<tr>
+    <td>Node</td>
+    <td>14</td>
+    <td></td>
+</tr>
+</table>
 
 2.开发工具
 
-WebStorm或VsCode
+ WebStorm或VsCode
 
 3.命令
-安装依赖：npm install
-启动服务：npm run serve
-打包：npm run build
+
+安装依赖：
+```npm install```
+
+启动服务：```npm run serve```
+
+打包：```npm run build```
 
 4.访问
 打开http://localhost:8222 访问登录页面,账号admin密码是123456。
+
 # 功能模块
 <div  align="center">   
 <img src="%E5%9B%BE%E7%89%871.png" width="800" height="450" alt="核桃CMS">
@@ -154,7 +193,7 @@ WebStorm或VsCode
 
 **扫描下方二维码，欢迎咨询** 
 
-<div  align="left">   
+<div  align="center">   
 <img src="%E8%81%94%E7%B3%BB.jpg" width="300" height="300" alt="核桃CMS">
 </div>
 
