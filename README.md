@@ -1,4 +1,4 @@
-<img src="image.png" width="200" height="150" alt="图片描述">
+<img src="image.png" width="500" height="300" alt="图片描述">
 
 
 # 简介：
