@@ -1,5 +1,5 @@
 <div  align="center">   
-<img src="image.png" width="800" height="300" alt="图片描述">
+<img src="image.png" width="850" height="300" alt="图片描述">
 </div>
 
 # 简介：
