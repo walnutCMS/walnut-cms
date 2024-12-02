@@ -54,7 +54,7 @@
 
 # 功能模块
 <div  align="center">   
-<img src="%E5%9B%BE%E7%89%871.png" width="600" height="400" alt="核桃CMS">
+<img src="%E5%9B%BE%E7%89%871.png" width="800" height="450" alt="核桃CMS">
 </div>
 
  **安全设置** 
@@ -89,14 +89,14 @@
 * 运行监控
 * 统计分析
 
-搜索[核桃云官网]（https://htyun.net/html/web/news/productnew/1789134887482904577.html）“核桃云官网”，了解系统详情。
+搜索（https://htyun.net/html/web/news/productnew/1789134887482904577.html）“核桃云官网”，了解系统详情。
 
 # 联系我们
 
 **扫描下方二维码，欢迎咨询** 
 
-<div  align="center">   
-<img src="%E8%81%94%E7%B3%BB.jpg" width="200" height="200" alt="核桃CMS">
+<div  align="left">   
+<img src="%E8%81%94%E7%B3%BB.jpg" width="300" height="300" alt="核桃CMS">
 </div>
 
 
