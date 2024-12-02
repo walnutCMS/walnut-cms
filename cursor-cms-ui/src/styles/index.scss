@@ -1,0 +1,53 @@
+@use './variables.scss' as *;
+@use './transition.scss' as *;
+@use './animation.scss' as *;
+@use './responsive.scss' as *;
+@use './theme.scss' as *;
+
+// 主题变量
+:root {
+  --primary-color: #1890ff;
+  --success-color: #52c41a;
+  --warning-color: #faad14;
+  --error-color: #f5222d;
+  --font-size-base: 14px;
+  --heading-color: rgba(0, 0, 0, 0.85);
+  --text-color: rgba(0, 0, 0, 0.65);
+  --text-color-secondary: rgba(0, 0, 0, 0.45);
+  --disabled-color: rgba(0, 0, 0, 0.25);
+  --border-radius-base: 4px;
+  --border-color-base: #d9d9d9;
+  --box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --background-color-base: #f5f5f5;
+  --background-color-light: #fafafa;
+}
+
+// 暗色主题
+[data-theme='dark'] {
+  --primary-color: #177ddc;
+  --heading-color: rgba(255, 255, 255, 0.85);
+  --text-color: rgba(255, 255, 255, 0.65);
+  --text-color-secondary: rgba(255, 255, 255, 0.45);
+  --disabled-color: rgba(255, 255, 255, 0.25);
+  --border-color-base: #434343;
+  --background-color-base: #262626;
+  --background-color-light: #1f1f1f;
+}
+
+// 全局样式
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif;
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--background-color-light);
+}
+
+// 响应式布局
+@media (max-width: 768px) {
+  :root {
+    --font-size-base: 12px;
+  }
+} 

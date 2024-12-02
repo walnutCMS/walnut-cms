@@ -1,0 +1,69 @@
+// Screen breakpoints
+$screen-xs: 576px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+$screen-xl: 1600px;
+
+// SCSS Variables
+$primary-color: #409EFF;
+$success-color: #67C23A;
+$warning-color: #E6A23C;
+$danger-color: #F56C6C;
+$info-color: #909399;
+
+// 侧边栏
+$sideBarWidth: 210px;
+
+// CSS Variables
+:root {
+  // 基础颜色
+  --primary-color: #{$primary-color};
+  --success-color: #{$success-color};
+  --warning-color: #{$warning-color};
+  --danger-color: #{$danger-color};
+  --info-color: #{$info-color};
+
+  // 文字颜色
+  --text-color: #303133;
+  --text-color-secondary: #909399;
+  --heading-color: #17233d;
+
+  // 背景颜色
+  --background-color-base: #fff;
+  --background-color-light: #f5f7f9;
+
+  // 边框颜色
+  --border-color-base: #dcdfe6;
+  --border-color-light: #e4e7ed;
+
+  // 阴影
+  --box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+  --box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+  // 圆角
+  --border-radius-base: 4px;
+  --border-radius-small: 2px;
+}
+
+// 暗色主题
+[data-theme='dark'] {
+  // 基础颜色保持不变
+
+  // 文字颜色
+  --text-color: #d0d0d0;
+  --text-color-secondary: #8c8c8c;
+  --heading-color: #fff;
+
+  // 背景颜色
+  --background-color-base: #1f1f1f;
+  --background-color-light: #2d2d2d;
+
+  // 边框颜色
+  --border-color-base: #434343;
+  --border-color-light: #303030;
+
+  // 阴影
+  --box-shadow-base: 0 2px 4px rgba(0, 0, 0, .48), 0 0 6px rgba(0, 0, 0, .16);
+  --box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.4);
+} 

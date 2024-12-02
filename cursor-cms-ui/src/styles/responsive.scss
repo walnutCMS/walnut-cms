@@ -1,0 +1,95 @@
+@use './variables.scss' as *;
+@use "sass:math";
+
+// 响应式混合器
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == xs {
+    @media (max-width: $screen-xs) { @content; }
+  }
+  @else if $breakpoint == sm {
+    @media (max-width: $screen-sm) { @content; }
+  }
+  @else if $breakpoint == md {
+    @media (max-width: $screen-md) { @content; }
+  }
+  @else if $breakpoint == lg {
+    @media (max-width: $screen-lg) { @content; }
+  }
+  @else if $breakpoint == xl {
+    @media (max-width: $screen-xl) { @content; }
+  }
+}
+
+// 响应式工具类
+.hidden {
+  &-xs {
+    @include respond-to(xs) { display: none !important; }
+  }
+  &-sm {
+    @include respond-to(sm) { display: none !important; }
+  }
+  &-md {
+    @include respond-to(md) { display: none !important; }
+  }
+  &-lg {
+    @include respond-to(lg) { display: none !important; }
+  }
+  &-xl {
+    @include respond-to(xl) { display: none !important; }
+  }
+}
+
+// 响应式容器
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @include respond-to(sm) {
+    max-width: 540px;
+  }
+  @include respond-to(md) {
+    max-width: 720px;
+  }
+  @include respond-to(lg) {
+    max-width: 960px;
+  }
+  @include respond-to(xl) {
+    max-width: 1140px;
+  }
+}
+
+// 响应式栅格
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @for $i from 1 through 12 {
+    &-#{$i} {
+      flex: 0 0 percentage(math.div($i, 12));
+      max-width: percentage(math.div($i, 12));
+    }
+  }
+
+  @each $breakpoint in (xs, sm, md, lg, xl) {
+    @include respond-to($breakpoint) {
+      @for $i from 1 through 12 {
+        &-#{$breakpoint}-#{$i} {
+          flex: 0 0 percentage(math.div($i, 12));
+          max-width: percentage(math.div($i, 12));
+        }
+      }
+    }
+  }
+} 

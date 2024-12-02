@@ -1,0 +1,13 @@
+# Project exclude paths
+
+/.idea/
+
+/cursor-cms-api/.idea/
+/cursor-cms-api/logs/
+/cursor-cms-api/target/
+
+/cursor-cms-ui/.idea/
+/cursor-cms-ui/node_modules/
+/cursor-cms-ui/package-lock.json/
+
+/logs/

@@ -1,0 +1,57 @@
+@use './variables.scss' as *;
+
+// 主题过渡效果
+:root {
+  --transition-time: 0.3s;
+}
+
+body {
+  transition: 
+    background-color var(--transition-time),
+    color var(--transition-time);
+}
+
+// 主题切换动画
+.theme-transition {
+  * {
+    transition: 
+      background-color 0.3s ease,
+      border-color 0.3s ease,
+      color 0.3s ease;
+  }
+}
+
+// 暗色主题特殊效果
+[data-theme='dark'] {
+  .card {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .neon-text {
+    text-shadow: 0 0 5px var(--primary-color),
+                 0 0 10px var(--primary-color),
+                 0 0 15px var(--primary-color);
+  }
+} 
+
+// 亮色主题特效
+[data-theme='light'] {
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  }
+} 
