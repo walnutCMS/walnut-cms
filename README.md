@@ -1,10 +1,12 @@
 <div  align="center">   
-<img src="image.png" width="850" height="300" alt="图片描述">
+<img src="image.png" width="850" height="300" alt="核桃CMS">
 </div>
 
 # 简介：
 核桃CMS是一款基于SpringBoot2架构的JAVA网站建设平台，主要特点是支持涉密信息系统分级保护功能、支持国产化环境、支持数据库和中间件、支持等保二、等保三级、提供全文搜索引擎、支持多级审批、支持动静混合模式、支持站群管理、内容管理、模版管理，能够更好的适配涉密信息系统及内部网站建设需求。
-![核桃CMS](1.jpg#pic_center)
+<div  align="center">   
+<img src="1.jpg" width="600" height="400" alt="核桃CMS">
+</div>
 
 # 系统特点
  **智能** 
@@ -51,7 +53,9 @@
 # 系统部署
 
 # 功能模块
-![核桃CMS](%E5%9B%BE%E7%89%871.png#pic_center)
+<div  align="center">   
+<img src="%E5%9B%BE%E7%89%871.png" width="600" height="400" alt="核桃CMS">
+</div>
 
  **安全设置** 
 * 权限设置
@@ -91,7 +95,9 @@
 
 **扫描下方二维码，欢迎咨询** 
 
-![输入图片说明](%E8%81%94%E7%B3%BB.jpg)
+<div  align="center">   
+<img src="%E8%81%94%E7%B3%BB.jpg" width="200" height="200" alt="核桃CMS">
+</div>
 
 
 
