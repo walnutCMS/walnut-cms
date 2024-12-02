@@ -134,7 +134,7 @@ WebStorm或VsCode
 
 
  
-搜索[核桃云官网](https://htyun.net/html/web/news/productnew/1789134887482904577.html "核桃云官网") ，了解系统详情。
+搜索[核桃云官网](https://htyun.net/html/web/news/productnew/1789134887482904577.html "核桃云官网") (https://htyun.net/html/web/product/htcms/index.html)，了解系统详情。
  
 
 # 联系我们
